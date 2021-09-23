@@ -91,6 +91,21 @@ ul {
   opacity: 1;
 }
 
+.pigTileSize img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.notvisible {
+  display: none;
+
+}
+
+.visible {
+  display: block;
+}
+
 .minBackgroundSneak {
   position: absolute;
   width: inherit;
@@ -111,6 +126,7 @@ ul {
 .pigTile h3 {
   color: #FBB;
 }
+
 
 .minPigTile {
   width: 250px;
