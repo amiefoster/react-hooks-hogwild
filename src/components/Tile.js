@@ -5,7 +5,7 @@ import { useState } from "react"
 const Tile = ({ name, image, specialty, weight, greased, metal}) => {
     // console.log(name, image) //returns name and image for each pig
     // console.log(weight, greased, specialty)
-    console.log(metal)
+    // console.log(metal)
 
     const [visible, setVisible] = useState(true);
             //set visible initially to true
@@ -23,7 +23,7 @@ const Tile = ({ name, image, specialty, weight, greased, metal}) => {
                     {/* asking is visible true? then change the classname */}
                 <p>Specialty: {specialty}</p>
                 <p>Weight: {weight}</p>
-                <p>Greased Status: {greased ? "True" : "False"}</p>
+                <p>Greased Status: {greased ? "Greasy" : "Dry"}</p>
                 <p>Highest Metal Achieved: {metal}</p>
             </div>
         
